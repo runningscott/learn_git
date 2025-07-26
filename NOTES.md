@@ -65,3 +65,5 @@ git diff 0364f6e fd3fe30 README.md #比较两版本 README 的区别。
 如果我们发现改动是**误操作**，希望恢复到该文件的上一个 commit 的状态，可以使用命令：`git checkout -- README.md`
 `git checkout` 从版本仓库中取得一个文件的指定版本，然后覆盖到工作目录中。命令后面可以指定一个 *commit id*，上面我们用 `--`就表示从仓库里最新的一个 commit 中取，最后是要取出的文件路径（当前目录下 `README.md`文件）。运行上面的命令会废弃掉（*discard*）刚才对 `README.md` 做的修改。
 
+`git reset HEAD <file>...` to unstage 
+
