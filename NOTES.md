@@ -1,4 +1,4 @@
-# Welcome to my Git tutorial (or playground).
+# Welcome to my Git tutorial and playground.
 
 ## Git 基本概念与用法
 
