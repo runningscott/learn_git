@@ -154,9 +154,15 @@ git checkout master
 
 这就是 git 的多分支工作模型，这个模型既可以用于单人工作，也可以用于多人协作，在多人协作时更具价值，让多人并行工作成为顺理成章、几乎没有额外代价的事情。
 
+## 进阶学习资料
 
+网上有不少关于 Git 和 GitHub 的优质学习资料，除了前面提到的官方教科书 [Pro Git](https://git-scm.com/book/en/v2) 以外，我们比较喜欢的还有这些：
 
+- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+- [Git How To](https://githowto.com/)
+- [Git pretty - Solve Git Mess](http://justinhileman.info/article/git-pretty/)
 
+颇受欢迎的内容推荐列表 [awesome-git](https://github.com/dictcp/awesome-git) 中还有很多不错的资料，也可以参考。
 
 
 
