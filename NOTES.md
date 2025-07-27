@@ -69,3 +69,9 @@ git diff 0364f6e fd3fe30 README.md #比较两版本 README 的区别。
 
 `git reset HEAD <file>...` to unstage 
 
+## 附注：关于 git 新版本的变化
+在 *git* 2.23 及以后的版本中引入了两个实验性的新命令：`git switch` 和 `git restore`，其目的是以后替代语焉不详的 `git checkout` 命令，这些新的命令（尤其是 `git restore`）从 2.23 版本开始出现在交互提示中：代替 `git reset HEAD <file>...` 用于从 staging area 撤出修改，以及代替 `git checkout -- <file>...` 用于回退修改。
+
+1. 老的命令在相当长时间内都还有效；
+2. 关于 2.23 引入的变化，git 官网有一篇[详细的说明](https://github.blog/open-source/git/highlights-from-git-2-23/)。
+
